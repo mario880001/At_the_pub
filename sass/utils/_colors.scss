@@ -1,0 +1,18 @@
+$color: (
+    'first': #5f9ea0,
+    'second': #ff7f50,
+    'third': #000000,
+    'first2': #9a2323,
+    'second2': #05059d,
+    'third2': #056105,
+    'first3': #220202,
+    'second3': #dbdeb6,
+    'third3': #3358dd,
+    'first4': #019613,
+    'second4': #27c2c8,
+    'third4': #ffffff,
+);
+
+@function getColor($key) {
+    @return map-get($color, $key);
+}

@@ -1,0 +1,49 @@
+.foot {
+    background-color: getColor('first');
+    display: flex;
+    // justify-content: end;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.logo__link {
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile__boy--on {
+    display: none;
+}
+
+.contacts {
+    height: 40px;
+    // margin-left: 400px;
+
+
+    &__list {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        @extend .logo__image;
+        margin-right: 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.footer-boxes {
+    width: 250px;
+}

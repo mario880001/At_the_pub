@@ -1,0 +1,115 @@
+@media (max-width:1200px){
+    .container {
+        max-width: 900px;
+        border: 3px solid rgb(0, 255, 42);
+    }
+
+    .head, .foot {
+        background-color: getColor('first2');
+    }
+
+    .hands {
+        background-color: getColor('second2');
+    }
+    
+    .boxes {
+        background-color: getColor('third2');   
+    }
+}
+
+
+@media (max-width: 900px){
+    .container {
+        max-width: 650px;
+    }
+
+    .head, .foot {
+        background-color: getColor('first3');
+    }
+
+    .hands {
+        background-color: getColor('second3');
+    }
+    
+    .boxes {
+        background-color: getColor('third3');   
+    }
+
+    .footer-boxes--delete {
+        display: none;
+    }
+}
+
+
+@media (max-width: 650px){
+    .container {
+        max-width: 400px;
+    }
+
+    .head, .foot {
+        background-color: getColor('first4');
+    }
+
+    .menu__list {
+        gap: 10px;
+    }
+
+    .hands {
+        background-color: getColor('second4');
+    }
+
+    .beer, .snacks {
+        flex-direction: column;
+    }
+
+    .boxes {
+        background-color: getColor('third4');   
+    }
+
+    .foot {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile--rotate {
+        transform: rotate(200deg);
+        margin-left: 10px;
+    }
+
+    .mobile--rotate-mail {
+        transform: rotate(70deg);
+
+    }
+
+    .mobile__boy--off {
+        display: none;
+    }
+
+    .mobile__boy--on {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .logo__link {
+        gap: 5px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    * {
+        color: black;
+    }
+}
+
+
+@media (max-width: 400px){
+    .container {
+        min-width: 400px;
+    }
+}

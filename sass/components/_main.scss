@@ -1,0 +1,40 @@
+.hands {
+    background-color: getColor('second');
+}
+
+.beer {
+    display: flex;
+    justify-content: center;
+
+    &__image {
+        max-width: 650px;
+        padding-top: 10px;
+    }
+
+    &__description {
+        padding: 20px 50px;
+    }
+}
+
+.snacks {
+    display: flex;
+    justify-content: center;
+
+    &__image {
+        width: 400px;
+        padding-top: 10px;
+    }
+
+    &__description {
+        padding: 10px 30px;
+    }
+}
+
+.boxes {
+    margin: 15px;
+    background-color: getColor('third');
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+}

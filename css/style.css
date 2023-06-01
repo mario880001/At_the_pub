@@ -42,22 +42,6 @@ body {
   background-color: #5f9ea0;
   padding: 0 15px;
 }
-.head-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-}
-.head-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
 
 .logo {
   display: -webkit-box;
@@ -81,11 +65,6 @@ body {
   width: 40px;
 }
 
-.menu {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,6 +99,7 @@ body {
 }
 .beer__description {
   padding: 20px 50px;
+  text-align: center;
 }
 
 .snacks {
@@ -151,6 +131,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.boxes {
+  max-width: 700px;
+  max-height: 600px;
+}
+
+.beer__image, .snacks__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
 }
 
 .foot {
@@ -207,7 +199,7 @@ body {
 
 @media (max-width: 1200px) {
   .container {
-    max-width: 900px;
+    min-width: 900px;
     border: 3px solid rgb(0, 255, 42);
   }
   .head, .foot {
@@ -222,7 +214,7 @@ body {
 }
 @media (max-width: 900px) {
   .container {
-    max-width: 650px;
+    min-width: 650px;
   }
   .head, .foot {
     background-color: #220202;
@@ -239,7 +231,7 @@ body {
 }
 @media (max-width: 650px) {
   .container {
-    max-width: 400px;
+    min-width: 400px;
   }
   .head, .foot {
     background-color: #019613;

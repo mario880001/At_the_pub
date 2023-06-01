@@ -1,6 +1,6 @@
 @media (max-width:1200px){
     .container {
-        max-width: 900px;
+        min-width: 900px;
         border: 3px solid rgb(0, 255, 42);
     }
 
@@ -20,7 +20,7 @@
 
 @media (max-width: 900px){
     .container {
-        max-width: 650px;
+        min-width: 650px;
     }
 
     .head, .foot {
@@ -43,7 +43,7 @@
 
 @media (max-width: 650px){
     .container {
-        max-width: 400px;
+        min-width: 400px;
     }
 
     .head, .foot {

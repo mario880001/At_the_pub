@@ -1,7 +1,6 @@
 .foot {
     background-color: getColor('first');
     display: flex;
-    // justify-content: end;
     justify-content: space-between;
     padding: 0 15px;
 }
@@ -20,8 +19,6 @@
 
 .contacts {
     height: 40px;
-    // margin-left: 400px;
-
 
     &__list {
         display: flex;
